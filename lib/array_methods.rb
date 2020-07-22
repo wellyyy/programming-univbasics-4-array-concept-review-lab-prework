@@ -16,6 +16,7 @@ def find_max_value(array)
       bigboy = array[index]
       bigboy
     end
+  end
   
     
 end
