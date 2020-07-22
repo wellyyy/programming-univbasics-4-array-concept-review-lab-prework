@@ -11,6 +11,12 @@ def find_max_value(array)
   bigboy = array[0]
   num = array.length
   
+  num.times do |index|
+    if bigboy < array[index]
+      bigboy = array[index]
+      bigboy
+    end
+  
     
 end
 
