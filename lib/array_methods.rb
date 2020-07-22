@@ -21,6 +21,13 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  smallboy= array[0]
+  num = array.length
+  num.times do |index|
+    if smallboy > array[index]
+      smallboy = array[index]
+    end
+  end
+  smallboy
 end
 
